@@ -1,10 +1,5 @@
-import react from "react"
-import ReactDOM  from "react"
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Home from './pages/Home/Home'
 
-ReactDOM.render(
-    <div>
-    <h1>Monster Rollodex</h1>
-    </div>,document.getElementById('root-rollodex')
-
-
-)
+ReactDOM.render(<Home/>,document.getElementById('root-rollodex'))
